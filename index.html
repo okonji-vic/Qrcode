@@ -13,68 +13,79 @@
             position: absolute;
             top: 50px;
             left: 60px;
+            padding-top: 50px;
 }
 .grid {
     display: grid;
     background-color: white;
-    grid-template-rows: 190px;
-    position: relative;
-    top: 80px;
-    left: 460px;
-    right: 100px;
-    width: 155px;
+    grid-template-rows: 290px;
+    
+    width: 260px;
     padding-left: 10px;
     padding-top: 10px;
-    padding-right: 10px;
+    padding-right: 0px;
     border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
     
 }
 
         .text1 {
             color: black;
             font-weight: 700;
-            font-size: 14px;
+            font-size: 20px;
             text-align: center;
+            margin: 0px;
+            padding-left: 10px;
+            padding-right: 10px;
+            
+            
             
         }
 
         .text2 {
             color: darkgray;
             text-align: center;
-            font-size: 10px;
+            font-size: 15px;
+            padding-left: 10px;
+            padding-right: 10px;
             
         }
 
-        img {
+        img, a {
             border-radius: 10px;
+            
+            
         }
         @media (max-width: 710px) {
-        .divcontainer{
+        .divcontainer {
             width: 100%;
             background-color: hsl(212, 45%, 89%);
             height: 500px;
             position: static;
+            padding-top: 50px;
+            padding-bottom: 0px;
             
-            
-            
-            
-            
-          
-
         }
+
+
+
+       
+            
         .grid {
             display: grid;
             background-color: white;
-            grid-template-rows: 190px;
-            position: relative;
-            top: 80px;
-            left: 30%;
-            right: 100px;
-            width: 155px;
+            grid-template-rows: 290px;
+           
+            width: 255px;
             padding-left: 10px;
             padding-top: 10px;
             padding-right: 10px;
             border-radius: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            
     
 
         }
@@ -82,25 +93,26 @@
 
     </style>
 </head>
-<body>
+  <body>
     <div class="divcontainer">
-        
-            <div class="grid">
-                <a href="https://www.frontendmentor.io" target="_blank">
-                    <img src="./images/image-qr-code.png" width="152px" height="180px">
-                    </a>
-                
-                    <p class="text1">Improve your front-end skills by building projects</p>
-                    <p class="text2">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-
-
-
-
-            </div>
-
-    
+      <div class="grid">
+        <a href="https://www.frontendmentor.io" target="_blank">
+          <img src="./images/image-qr-code.png" width="252px" height="265px">
+        </a>
+        <p class="text1">Improve your front-end skills by building projects</p>
+        <p class="text2">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
     </div>
-   
-            
-</body>
+  </body>
 </html>
+.grid
+position: relative;
+    top: 80px;
+    left: 460px;
+    right: 100px;
+
+    .gridmobile  
+     position: relative;
+    top: 80px;
+    left: 30%;
+    right: 100px;
